@@ -1,0 +1,36 @@
+{
+  "name": "country-slice",
+  "version": "0.0.1",
+  "description": "An array of country data exposed that can be mapped or filtered",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/country-slice.git"
+  },
+  "keywords": [
+    "country",
+    "list",
+    "world",
+    "geography"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/country-slice/issues"
+  },
+  "homepage": "https://github.com/binocarlos/country-slice",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "should": "~2.1.0"
+  },
+  "dependencies": {
+    "split": "~0.3.0",
+    "through": "~2.3.4"
+  }
+}
